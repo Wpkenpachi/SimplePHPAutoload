@@ -1,0 +1,8 @@
+{
+	"class": {
+		"Base" : "",
+		"App"  : "App/",
+		"App\\Controller" : "App/Controller/",
+		"App\\Model"	  : "App/Model/"	
+	}
+}

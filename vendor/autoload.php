@@ -27,9 +27,4 @@ spl_autoload_register(function($class) use ($dirs){
 		$full_dir = str_replace('/', DIRECTORY_SEPARATOR, (__DIR__ . '/../' . $dirs[$namespace] . $class_name . ".php") );
 		require $full_dir;
 	}
-
-	//echo "Namespace: " . $namespace . "\n";
-	//echo "ClassName: " . $class_name . "\n";
-	//echo "Prefix: " . $dirs[$namespace] . "\n";
-	//echo "Full Target Dir: " . $full_dir . "\n";
 });
